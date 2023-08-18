@@ -4,10 +4,9 @@
 
 # Config
 1. fill in the file `dev/config.edn`
-
-Note: 
-1. if using https, port needs to be set as `nil`
-2. The most relevant fields are: `:user`, `:password`, `:https`, `:host`, `:port`, `:db-name` 
+2. The most relevant fields in config file are:
+  `:user`, `:password`, `:https`, `:host`, `:port`, `:db-name`
+3. When `:host` field is domain name without port information, we should fill in `nil` in `:port` field.
 
 # Execute the trigger
 
