@@ -8,5 +8,5 @@
 # Execute the trigger
 
 ```
-clj -X  clj -X automation.auto/run 
+clj -X automation.auto/run 
 ```
