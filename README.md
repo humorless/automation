@@ -1,6 +1,7 @@
-# Install
-1. `brew install clojure/tools/clojure`
-2. `clj` 
+# Requirements
+To use Automation, we need to prepare Clojure CLI program in our system first.
+
+`brew install clojure/tools/clojure`
 
 # Config
 1. fill in the file `dev/config.edn`
